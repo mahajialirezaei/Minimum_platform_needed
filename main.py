@@ -6,6 +6,9 @@ for i in range(n):
     arrivals.append(x[0])
     departures.append(x[1])
 
+arrivals.sort()
+departures.sort()
+
 i = 0
 j = 0
 platform_needed = 0
